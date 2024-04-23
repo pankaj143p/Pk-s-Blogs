@@ -49,4 +49,5 @@ app.use((err, req, res, next) => {
     statusCode,
     message,
   });
+  console.log("data--> ",data)
 });

@@ -15,6 +15,7 @@ export default function SignUp() {
     e.preventDefault();
     if (!formData.username || !formData.email || !formData.password) {
       return setErrorMessage('Please fill out all fields.');
+      // console.log("--> ",username,email,password)
     }
     try {
       setLoading(true);
