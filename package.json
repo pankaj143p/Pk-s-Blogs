@@ -1,24 +1,46 @@
 {
-    "name": "mern-blog",
-    "version": "1.0.0",
-    "description": "",
-    "type": "module",
-    "main": "index.js",
-    "scripts": {
-        "dev": "nodemon api/index.js",
-        "start": "node api/index.js",
-        "build": "npm install && npm install --prefix client && npm run build --prefix client"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "bcryptjs": "^2.4.3",
-        "cookie-parser": "^1.4.6",
-        "dotenv": "^16.3.1",
-        "express": "^4.19.2",
-        "jsonwebtoken": "^9.0.2",
-        "mongoose": "^8.0.2",
-        "nodemon": "^3.0.2"
-    }
+  "name": "developer-blog-starter-code",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "next-sitemap",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@dotlottie/react-player": "^1.2.1",
+    "@supabase/auth-helpers-nextjs": "^0.7.4",
+    "@tailwindcss/forms": "^0.5.5",
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "10.4.15",
+    "contentlayer": "^0.3.4",
+    "date-fns": "^2.30.0",
+    "eslint": "8.48.0",
+    "eslint-config-next": "13.4.19",
+    "github-slugger": "^2.0.0",
+    "next": "13.5.4",
+    "next-contentlayer": "^0.3.4",
+    "next-sitemap": "^4.2.2",
+    "postcss": "8.4.31",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.45.4",
+    "reading-time": "^1.5.0",
+    "rehype-autolink-headings": "^6.1.1",
+    "rehype-pretty-code": "^0.10.0",
+    "rehype-slug": "^5.1.0",
+    "remark-gfm": "^3.0.1",
+    "shiki": "^0.14.3",
+    "tailwindcss": "3.3.3"
+  },
+  "devDependencies": {
+    "encoding": "^0.1.13",
+    "sharp": "^0.32.6"
+  },
+  "description": "![GitHub stars](https://img.shields.io/github/stars/P K's Blog27/Nextjs-tailwindcss-blog-template?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp; ![GitHub forks](https://img.shields.io/github/forks/P K's Blog27/Nextjs-tailwindcss-blog-template?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp; ![Github Followers](https://img.shields.io/github/followers/P K's Blog27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />",
+  "main": "contentlayer.config.js",
+  "author": "Pankaj",
+  "license": "ISC"
 }
